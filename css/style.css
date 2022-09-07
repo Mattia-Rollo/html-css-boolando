@@ -37,6 +37,7 @@ main {
 footer{
     background-color: var(--secondary);
     color: var(--white);
+    height: 100px;
 }
 
 /* header  */
@@ -128,4 +129,11 @@ div.heart {
 }
 div.heart:hover {
     color: var(--heart);
+}
+/* fine pagina  */
+
+.end-page {
+    height: 100%;
+    width: 1100px;
+    
 }
