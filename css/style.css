@@ -92,6 +92,7 @@ nav li a {
 .item img {
     /* display: block; */
     width: 100%;
+    border-radius: 10px;
 }
 .price {
     color: var(--heart);
