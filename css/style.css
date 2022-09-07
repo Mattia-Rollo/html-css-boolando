@@ -18,6 +18,7 @@
     --text-main: black;
     --sconto: red;
     --eco: green;
+    --heart: red;
 }
 
 /* Contenitori principali */
@@ -91,6 +92,7 @@ div.info div {
     margin-right: 5px;
     padding: 5px ;
     color: var(--white);
+    font-weight: 700;
 }
 .sconto {
     display: inline-block;
@@ -111,4 +113,19 @@ div.info div {
 }
 .item:hover .second-img{
     display: block;
+}
+
+/* heart */
+
+div.heart {
+    position: absolute;
+    color: var(--text-main);
+    top: 10px;
+    right: 0;
+    padding: 10px;
+    font-size: 20px;
+    background-color: var(--white);
+}
+div.heart:hover {
+    color: var(--heart);
 }
