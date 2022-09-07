@@ -32,12 +32,13 @@ header {
 main {
     color: var(--text-main);
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 40px auto;
 }
 footer{
     background-color: var(--secondary);
     color: var(--white);
     height: 100px;
+    border-bottom: 1PX solid var(--white);
 }
 
 /* header  */
@@ -81,7 +82,7 @@ nav li a {
 }
 
 .item img {
-    display: block;
+    /* display: block; */
     width: 100%;
 }
 .price {
@@ -121,7 +122,7 @@ div.info div {
     display: none;
 }
 .item:hover .second-img{
-    display: block;
+    display: inline-block;
 }
 
 /* heart */
