@@ -85,7 +85,7 @@ nav li a {
 }
 div.info {
     position: absolute;
-    bottom: 50px;
+    bottom: 100px;
     left: 0;
 }
 div.info div {
@@ -136,4 +136,11 @@ div.heart:hover {
     height: 100%;
     width: 1100px;
     
+}
+.price {
+    color: var(--heart);
+    font-weight: 700;
+}
+.oldPrice {
+    text-decoration: line-through;
 }
