@@ -1,0 +1,32 @@
+/* utility */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.debug {
+    border: 1px solid black;
+}
+
+/* colori  */
+
+:root {
+    --primary: #ff6900;
+    --secondary: #1a1a1a;
+}
+
+header {
+    background-color: var(--primary);
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.flex img.logo {
+    width: 20%;
+}
