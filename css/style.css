@@ -128,6 +128,7 @@ div.info div {
 }
 .item:hover img {
     display: none;
+    cursor: pointer;
 }
 .item:hover .second-img{
     display: inline-block;
