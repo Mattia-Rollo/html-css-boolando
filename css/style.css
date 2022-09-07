@@ -76,6 +76,7 @@ nav li a {
     margin: 10px 10px;
     position: relative;
 }
+
 .item img {
     display: block;
     width: 100%;
@@ -88,12 +89,26 @@ div.info {
 div.info div {
     display: inline-block;
     margin-right: 5px;
+    padding: 5px ;
+    color: var(--white);
 }
 .sconto {
     display: inline-block;
-    padding: 5px;
+    
     background-color: var(--sconto);
 }
 .eco {
     background-color: var(--eco);
+}
+
+/* effetto hover su immagini */
+
+.item .second-img {
+    display: none;
+}
+.item:hover img {
+    display: none;
+}
+.item:hover .second-img{
+    display: block;
 }
